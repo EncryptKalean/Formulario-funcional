@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Funcional</title>
+
+    <link rel="stylesheet" href="src/style.css">
+    <link rel="icon" href="src/icone.webp" type="image/x-icon">
+</head>
+<body>
+    <form id="emailParaReceber" action="https://formsubmit.co/kauanle78@gmail.com" method="POST">
+        <h1 class="titulo">Formulário de Contato</h1>
+     <label for="nome">Nome *</label>
+     <input type="text" name="name" required>
+
+     <label for="email">Email para contato *</label>
+     <input type="email" name="email" placeholder="exemplo@gmail.com" required>
+
+     <label for="mensagem">Motivo do contato *</label>
+     <textarea name="message" required></textarea>
+
+     <input type="hidden" name="_next" value="https://encryptkalean.github.io/Formulario-funcional/obg.html">
+     <input type="text" name="_honey" style="display:none">
+     <button class="enviar" type="submit">Enviar</button>
+</form>
+</body>
+<script src="src/script.js"></script>
+</html>
